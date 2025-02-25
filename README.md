@@ -11,13 +11,13 @@ Here is my presentation link: [Click Here](https://youtu.be/OLOsulZdI2g)
 Understanding the datasets was crucial to generate actionable insights. The project utilized multiple tables:
 
 * Jotstar_db: 
-           1.contents : content_id,content_type,language,genre,run_time. (Static Details)
-           2.subscribers : user_id,age_group,city_tier,subscription_date etc.(Transactional Data)
-           3.content_consumption : user_id,device_type,total_watch_time. (Static Details)
+ 1. contents : content_id,content_type,language,genre,run_time. (Static Details)
+ 2. subscribers : user_id,age_group,city_tier,subscription_date etc.(Transactional Data)
+ 3. content_consumption : user_id,device_type,total_watch_time. (Static Details)
 * Liocinema_db
-           1.contents : content_id,content_type,language,genre,run_time. (Static Details)
-           2.subscribers : user_id,age_group,city_tier,subscription_date etc. (Transactional Data)
-           3.content_consumption : user_id,device_type,total_watch_time. (Static Details)
+  1. contents : content_id,content_type,language,genre,run_time. (Static Details)
+  2. subscribers : user_id,age_group,city_tier,subscription_date etc. (Transactional Data)
+  3. content_consumption : user_id,device_type,total_watch_time. (Static Details)
 
 # Importing Data and Data Modeling:
 Data was imported from MySQL into Power BI, followed by cleaning and transformation steps. Proper data modeling was essential to ensure accurate insights and smooth report performance.
@@ -50,19 +50,21 @@ The dashboard comprises six pages for different stakeholder needs:
 
 # Skills Developed:
 ## Power BI Fundamentals:
-Power BI Fundamentals:
+
 1. DAX measures and calculated columns
-2. Page navigation with bookmarks\
-3. Tooltips to enhance user experience
-4. Data Modeling & Validation - Creating relationships between tables
-5. Power BI Service: Publishing and sharing dashboards
+2. Append Tables
+3. Page navigation with bookmarks
+4. New Visuals - Sunburst chart and Sankey Diagram
+5. Tooltips to enhance user experience
+6. Data Modeling & Validation - Creating relationships between tables
+7. Power BI Service: Publishing and sharing dashboards
 
 ## Tech Stacks:
 
 1. MySQL (Data extraction and transformation)
 2. Power BI Desktop (Report building and analysis)
 3. DAX language (Custom calculations and logic)
-4. M language (For advanced transformations)
+4. Power Query (For advanced transformations)
 5. OBS Studio (For video presentation)
 
 ##  Business Related Terms:

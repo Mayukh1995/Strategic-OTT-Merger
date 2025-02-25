@@ -5,18 +5,19 @@ Despite their individual strengths, both platforms face challenges in user reten
 
 Explore the live dashboard: [View Here](https://app.powerbi.com/view?r=eyJrIjoiZWYzODg1NTctODUwYi00ZmYwLWFjNjItNDEwNTgzNjgzMGQ3IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
-Here is my presentation link:[Click Here](https://youtu.be/OLOsulZdI2g)
+Here is my presentation link: [Click Here](https://youtu.be/OLOsulZdI2g)
 
 # Datasets:
 Understanding the datasets was crucial to generate actionable insights. The project utilized multiple tables:
-Jotstar_db: 
-           contents : content_id,content_type,language,genre,run_time. (Static Details)
-           subscribers : user_id,age_group,city_tier,subscription_date etc.(Transactional Data)
-           content_consumption : user_id,device_type,total_watch_time. (Static Details)
-Liocinema_db
-           contents : content_id,content_type,language,genre,run_time. (Static Details)
-           subscribers : user_id,age_group,city_tier,subscription_date etc. (Transactional Data)
-           content_consumption : user_id,device_type,total_watch_time. (Static Details)
+
+* Jotstar_db: 
+           1.contents : content_id,content_type,language,genre,run_time. (Static Details)
+           2.subscribers : user_id,age_group,city_tier,subscription_date etc.(Transactional Data)
+           3.content_consumption : user_id,device_type,total_watch_time. (Static Details)
+* Liocinema_db
+           1.contents : content_id,content_type,language,genre,run_time. (Static Details)
+           2.subscribers : user_id,age_group,city_tier,subscription_date etc. (Transactional Data)
+           3.content_consumption : user_id,device_type,total_watch_time. (Static Details)
 
 # Importing Data and Data Modeling:
 Data was imported from MySQL into Power BI, followed by cleaning and transformation steps. Proper data modeling was essential to ensure accurate insights and smooth report performance.
